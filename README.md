@@ -32,7 +32,11 @@ npm run create g s api
 ```
 
 Or you can work on the angular directory
+
+```bash
 cd resources/ng
+```
+
 And this is angular environment, so all angular command works here
 
 #### Production
