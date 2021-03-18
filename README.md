@@ -1,10 +1,13 @@
 # laravel-angular-integration
 Laravel 8+Angular 11 Template for Development and Deployment
 
+> A Laravel-Laravel starter project template.
+
 ## Features
 
 - Laravel 8
 - Angular 11
+- Possible to use Laravel view && Angular View
 
 ## Installation
 - git clone or download, run `composer install`
@@ -38,3 +41,4 @@ And this is angular environment, so all angular command works here
 npm run build:prod
 ```
 
+Still on the Development, authentication, api crud example will be implemented soon
