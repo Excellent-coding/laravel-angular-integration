@@ -58,4 +58,4 @@ If your laravel url is different(such as localhost), then change the environment
 If there are some files on the assets in angular directory, then please copy them and paste to pubilc/assets folder
 
 
-Still on the Development, authentication, api crud example will be implemented soon
+### Still on the Development, authentication, api crud example will be implemented soon
