@@ -45,4 +45,17 @@ And this is angular environment, so all angular command works here
 npm run build:prod
 ```
 
+## Issues
+
+#### Angular environments
+
+This is built for the localhost:4200(angular), localhost:8000(laravel)
+
+If your laravel url is different(such as localhost), then change the environment.ts api url 
+
+#### Build
+
+If there are some files on the assets in angular directory, then please copy them and paste to pubilc/assets folder
+
+
 Still on the Development, authentication, api crud example will be implemented soon
