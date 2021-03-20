@@ -1,12 +1,16 @@
 {
-  "name": "ng",
+  "name": "laravel-angular-integration",
   "version": "0.0.0",
+  "description": "Laravel Angular Integration",
+  "keywords": [
+    "laravel", "angular", "integration", "localhost:4200", "localhost:8000"
+  ],
   "scripts": {
     "dev": "npm run development",
     "development": "cd resources/ng && ng serve --no-live-reload",
     "start": "cd resources/ng && ng serve",
-    "build": "cd resources/ng && ng build --deploy-url /ng/ && @powershell cp ../../public/ng/index.html ../views/app.blade.php",
-    "build:prod": "cd resources/ng && ng build --prod --deploy-url /ng/ && @powershell copy ../../public/ng/index.html ../views/app.blade.php",
+    "build": "cd resources/ng && ng build --deploy-url /ng/ && cp ../../public/ng/index.html ../views/app.blade.php",
+    "build:prod": "cd resources/ng && ng build --prod --deploy-url /ng/ && copy ../../public/ng/index.html ../views/app.blade.php",
     "create": "cd resources/ng && ng "
   },
   "private": true,

@@ -57,5 +57,14 @@ If your laravel url is different(such as localhost), then change the environment
 
 If there are some files on the assets in angular directory, then please copy them and paste to pubilc/assets folder
 
+#### OS issue
+
+If you are using the windows system for the development, please edit the package.json like this.
+
+@powershell
+```bash
+"build": "cd resources/ng && ng build --deploy-url /ng/ && @powershell cp ../../public/ng/index.html ../views/app.blade.php",
+"build:prod": "cd resources/ng && ng build --prod --deploy-url /ng/ && @powershell copy ../../public/ng/index.html ../views/app.blade.php"
+```
 
 ### Still on the Development, authentication, api crud example will be implemented soon
